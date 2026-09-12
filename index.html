@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cyber Safety Lab PH</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{font-family:sans-serif;background:#eef2ff;padding:15px;max-width:800px;margin:auto}
+.box{background:white;padding:18px;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,.1);margin-bottom:18px}
+.warning{background:#ffebee;border:2px dashed #d32f2f;padding:12px;border-radius:10px;color:#b71c1c;font-weight:bold;text-align:center}
+input{width:100%;padding:12px;margin:8px 0;border:1px solid #ccc;border-radius:8px;box-sizing:border-box}
+button{padding:12px 18px;background:#1976d2;color:white;border:0;border-radius:8px;font-weight:bold}
+.bad{color:#d32f2f;font-weight:bold} .good{color:#2e7d32;font-weight:bold}
+table{width:100%;border-collapse:collapse;font-size:14px} td,th{border:1px solid #ddd;padding:8px} th{background:#f5f5f5}
+</style>
+</head>
+<body>
+<div class="box">
+<div class="warning">⚠️ EDUCATION ONLY - FAKE SIMULATION<br>Ginawa ni Seth sa Termux | Hindi ito Facebook</div>
+<h2>🔐 CyberLab PH - Login Simulation</h2>
+<input placeholder="Email (demo lang)">
+<input type="password" placeholder="Password (demo lang)">
+<button onclick="document.getElementById('lesson').style.display='block'">Log In (Demo)</button>
+<div id="lesson" style="display:none;margin-top:12px;background:#fff9c4;padding:10px;border-radius:8px">Lesson: Kung phishing to, nakuha na password mo. Kaya NEVER mag-login sa kahina-hinalang link!</div>
+</div>
+<div class="box">
+<h2>👀 Fake vs Real?</h2>
+<table>
+<tr><th>URL</th><th>Husga</th><th>Bakit?</th></tr>
+<tr><td>faceb00k-login.com</td><td class="bad">PHISHING</td><td>may 00</td></tr>
+<tr><td>facebook.com</td><td class="good">LEGIT</td><td>tama spelling + 🔒</td></tr>
+<tr><td>bit.ly/fb-free-load</td><td class="bad">PHISHING</td><td>naka-short link</td></tr>
+</table>
+<h3>3-Second Check:</h3>
+<p>1. Long-press link bago i-click<br>2. Check typo<br>3. Pag nagmamadali = scam</p>
+</div>
+</body>
+</html>
